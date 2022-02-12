@@ -1,0 +1,29 @@
+#program for grocery bill
+if bill>=3000:
+    tax=bill*10/100
+else:
+    tax=bill*18/100
+mainbill=bill-dis+taxcp=40
+tc=70
+gg=100
+tr=100
+oil=125
+cname=input('enter customer name:')
+cphno=input('enter customer phone number:')
+cpq=int(input('enter chilli powder quantity in KG:'))
+tcq=int(input('enter turmeric quantity in KG:'))
+ggq=int(input('enter green gram quantity in KG:'))
+trq=int(input('enter tamrind quantity in KG:'))
+oilq=int(input('enter oil quantity in litres:'))
+bill=(cp*cpq)+(tc*tcq)+(gg*ggq)+(tr*trq)+(oil*oilq)
+if bill>=5000:
+    dis=bill*10/100
+elif bill>=3000:
+    dis=bill*8/100
+elif bill>=2000:
+    dis=bill*5/100
+elif bill>=1000:
+    dis=bill*3/100
+print('discount:',dis)
+print('tax:',tax)       
+print('main bill',mainbill)
